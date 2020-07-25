@@ -26,8 +26,3 @@ $serv->on('Close', function ($serv, $fd) {
 //Æô¶¯·þÎñÆ÷
 $serv->start();
 
-Co\run(function (){
-    go(function (){
-        echo '11';
-    });
-});
